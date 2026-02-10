@@ -24,10 +24,6 @@
     color: white;
 }
 
-.outline {
-    outline: 2px solid black;
-}
-
 .navbar a:hover{
     background-color: blue;
 }
@@ -46,10 +42,13 @@ body {
 
 p, h3, li {
     font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
+}
 
+.footer {
+    outline: 1px solid black;
+    text-align: center;
 }
 
 h1 {
     font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
-    
 }

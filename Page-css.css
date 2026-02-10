@@ -62,12 +62,30 @@ body {
     justify-items: center;
 }
 
-p, h3, li {
+p, li, h1 {
     font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
 
 }
 
-h1 {
+h3 {
     font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
-    
+    text-align: center;
 }
+
+.navigation, .viewer {
+    font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.navigation a, .viewer a {
+    outline: 1px solid black;
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.image-display {
+    text-align: center;
+}
+

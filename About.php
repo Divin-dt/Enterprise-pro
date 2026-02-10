@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
+  <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Marshfield School</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" size>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     </div>
 
     <div class="picture">
-      
+      <img src="Images/Images/Marshfield_School.jpg" alt="Marshfield School"/>
     </div>
 
     <nav class="navbar">
