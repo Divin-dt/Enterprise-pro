@@ -42,9 +42,10 @@ body {
 
 p, h3, li {
     font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
+    text-align: justify;
 }
 
-.footer {
+.footer p{
     outline: 1px solid black;
     text-align: center;
 }

@@ -12,9 +12,9 @@ $imagePath="Images/Booklets/Historical_Sketch/";
       <div class="navbuttons">
         <ul>
           <li><a href="About.php">About</a></li>
-          <li><a href="chapelgreen.html">Chapel Green Board School</a></li>
-          <li><a href="thortonlane.html">Thorton Lane Board School</a></li>
-          <li><a href="marshfield.html">Marshfield School</a></li>
+          <li><a href="">Chapel Green Board School</a></li>
+          <li><a href="">Thorton Lane Board School</a></li>
+          <li><a href="marshfield.php">Marshfield School</a></li>
           <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
           <li><a href="Sources db.xlsx">Sources database</a></li>
         </ul>
@@ -62,9 +62,9 @@ $imagePath="Images/Booklets/Historical_Sketch/";
       <div class="navbuttons">
         <ul>
           <li><a href="About.php">About</a></li>
-          <li><a href="chapelgreen.html">Chapel Green Board School</a></li>
-          <li><a href="thortonlane.html">Thorton Lane Board School</a></li>
-          <li><a href="marshfield.html">Marshfield School</a></li>
+          <li><a href="">Chapel Green Board School</a></li>
+          <li><a href="">Thorton Lane Board School</a></li>
+          <li><a href="marshfield.php">Marshfield School</a></li>
           <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
           <li><a href="Sources db.xlsx">Sources database</a></li>
         </ul>
