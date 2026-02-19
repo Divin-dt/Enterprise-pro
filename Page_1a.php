@@ -8,13 +8,13 @@ $imagePath="Images/Booklets/Historical_Sketch/";
      <link rel="stylesheet" href="Page-css.css"/>
 </head>
 <body>
-         <nav class="navbar">
+     <nav class="navbar">
       <div class="navbuttons">
         <ul>
-          <li><a href="About.php">About</a></li>
-          <li><a href="">Chapel Green Board School</a></li>
-          <li><a href="">Thorton Lane Board School</a></li>
-          <li><a href="marshfield.php">Marshfield School</a></li>
+          <li><a href="Page 1.php">About</a></li>
+          <li><a href="Page 2.php">Chapel Green Board School</a></li>
+          <li><a href="Page 3.php">Thorton Lane Board School</a></li>
+          <li><a href="Page 4.php">Marshfield School</a></li>
           <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
           <li><a href="Sources db.xlsx">Sources database</a></li>
         </ul>
@@ -24,36 +24,37 @@ $imagePath="Images/Booklets/Historical_Sketch/";
     <div>
      <h3>A Historical Sketch</h3>
 </div>
+
     <div class="ahs-grid">
-      <a href="viewer.php?page=0">Front cover</a>
-      <a href="viewer.php?page=1">Page 1</a>
-      <a href="viewer.php?page=2">Page 2</a>
-      <a href="viewer.php?page=3">Page 3</a>
-      <a href="viewer.php?page=4">Page 4</a>
-      <a href="viewer.php?page=5">Page 5</a>
-      <a href="viewer.php?page=6">Page 6</a>
-      <a href="viewer.php?page=7">Page 7</a>
-      <a href="viewer.php?page=8">Page 8</a>
-      <a href="viewer.php?page=9">Page 9</a>
-      <a href="viewer.php?page=10">Page 10</a>
-      <a href="viewer.php?page=11">Page 11</a>
-      <a href="viewer.php?page=12">Page 12</a>
-      <a href="viewer.php?page=13">Page 13</a>
-      <a href="viewer.php?page=14">Page 14</a>
-      <a href="viewer.php?page=15">Page 15</a>
-      <a href="viewer.php?page=16">Page 16</a>
-      <a href="viewer.php?page=17">Page 17</a>
-      <a href="viewer.php?page=18">Page 18</a>
-      <a href="viewer.php?page=19">Page 19</a>
-      <a href="viewer.php?page=20">Page 20</a>
-      <a href="viewer.php?page=21">Page 21</a>
-      <a href="viewer.php?page=22">Page 22</a>
-      <a href="viewer.php?page=23">Page 23</a>
-      <a href="viewer.php?page=24">Page 24</a>
-      <a href="viewer.php?page=25">Page 25</a>
-      <a href="viewer.php?page=26">Page 26</a>
-      <a href="viewer.php?page=27">Page 27</a>
-      <a href="viewer.php?page=28">Page 28</a>
+      <a href="ahs-viewer.php?page=0">Front cover</a>
+      <a href="ahs-viewer.php?page=1">Page 1</a>
+      <a href="ahs-viewer.php?page=2">Page 2</a>
+      <a href="ahs-viewer.php?page=3">Page 3</a>
+      <a href="ahs-viewer.php?page=4">Page 4</a>
+      <a href="ahs-viewer.php?page=5">Page 5</a>
+      <a href="ahs-viewer.php?page=6">Page 6</a>
+      <a href="ahs-viewer.php?page=7">Page 7</a>
+      <a href="ahs-viewer.php?page=8">Page 8</a>
+      <a href="ahs-viewer.php?page=9">Page 9</a>
+      <a href="ahs-viewer.php?page=10">Page 10</a>
+      <a href="ahs-viewer.php?page=11">Page 11</a>
+      <a href="ahs-viewer.php?page=12">Page 12</a>
+      <a href="ahs-viewer.php?page=13">Page 13</a>
+      <a href="ahs-viewer.php?page=14">Page 14</a>
+      <a href="ahs-viewer.php?page=15">Page 15</a>
+      <a href="ahs-viewer.php?page=16">Page 16</a>
+      <a href="ahs-viewer.php?page=17">Page 17</a>
+      <a href="ahs-viewer.php?page=18">Page 18</a>
+      <a href="ahs-viewer.php?page=19">Page 19</a>
+      <a href="ahs-viewer.php?page=20">Page 20</a>
+      <a href="ahs-viewer.php?page=21">Page 21</a>
+      <a href="ahs-viewer.php?page=22">Page 22</a>
+      <a href="ahs-viewer.php?page=23">Page 23</a>
+      <a href="ahs-viewer.php?page=24">Page 24</a>
+      <a href="ahs-viewer.php?page=25">Page 25</a>
+      <a href="ahs-viewer.php?page=26">Page 26</a>
+      <a href="ahs-viewer.php?page=27">Page 27</a>
+      <a href="ahs-viewer.php?page=28">Page 28</a>
 </div>
 
  &nbsp;
@@ -61,10 +62,10 @@ $imagePath="Images/Booklets/Historical_Sketch/";
   <nav class="navbar">
       <div class="navbuttons">
         <ul>
-          <li><a href="About.php">About</a></li>
-          <li><a href="">Chapel Green Board School</a></li>
-          <li><a href="">Thorton Lane Board School</a></li>
-          <li><a href="marshfield.php">Marshfield School</a></li>
+          <li><a href="Page 1.php">About</a></li>
+          <li><a href="Page 2.php">Chapel Green Board School</a></li>
+          <li><a href="Page 3.php">Thorton Lane Board School</a></li>
+          <li><a href="Page 4.php">Marshfield School</a></li>
           <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
           <li><a href="Sources db.xlsx">Sources database</a></li>
         </ul>

@@ -24,6 +24,19 @@
    font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
 }
 
+.grid {
+   display: grid;
+   grid-auto-flow: row;
+   grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+   grid-template-rows: auto auto auto;
+   text-align: center;
+   align-content: center;
+}
+
+.grid a {
+     outline: 1px solid black;
+}
+
 .navbar ul {
     list-style-type: none;
     background-color: grey;
@@ -89,3 +102,15 @@ h3 {
     text-align: center;
 }
 
+.tla-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 50px);
+}
+
+.tla-grid a {
+   outline: 1px solid black;
+   text-align: center;
+   align-content: center;
+   font-family: 'Inter', 'Roboto', 'Open Sans', sans-serif;
+}

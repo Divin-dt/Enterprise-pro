@@ -18,13 +18,13 @@
       <img src="Images/Images/Marshfield_School.jpg" alt="Marshfield School"/>
     </div>
 
-    <nav class="navbar">
+      <nav class="navbar">
       <div class="navbuttons">
         <ul>
-          <li><a href="About.php">About</a></li>
-          <li><a href="">Chapel Green Board School</a></li>
-          <li><a href="">Thorton Lane Board School</a></li>
-          <li><a href="marshfield.php">Marshfield School</a></li>
+          <li><a href="Page 1.php">About</a></li>
+          <li><a href="Page 2.php">Chapel Green Board School</a></li>
+          <li><a href="Page 3.php">Thorton Lane Board School</a></li>
+          <li><a href="Page 4.php">Marshfield School</a></li>
           <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
           <li><a href="Sources db.xlsx">Sources database</a></li>
         </ul>
@@ -44,10 +44,22 @@
         Residents in the area <a href="Images/Bradford_School_Board/Chapel_Green_Petition.JPG">petitioned</a> the School Board to open another school in the area. A <a href="Images/Bradford_School_Board/Chapel_Green_Survey.JPG">survey</a> of school accommodation in the area identified 
         that there was a deficiency of 370 places. <br>
         Subsequently a new school was opened on Mon 10 Sept 1877 in rented premises within the same building as the Church School, which is now a Hindu Temple. The new school was called Chapel Green Board School 
-        and had an <a href="Images/Logbooks/Infant_1877 -1905.pdf">Infants</a> and <a href="Images/Logbooks/Junior_1877 - 1910.pdf">Junior</a> (Mixed) departments. They occupied the <a href="Images/Maps_and_Plans/Plan_Ground_ floor.JPG">ground floor</a> (see the plan) whilst the Church School had the <a href="Images/Maps_and_Plans/Plan_Upper_floor.JPG">upper floor</a>(see the plan).<br> 
+        and had an Infants and Junior (Mixed) departments. They occupied the <a href="Images/Maps_and_Plans/Plan_Ground_ floor.JPG">ground floor</a> (see the plan) whilst the Church School had the <a href="Images/Maps_and_Plans/Plan_Upper_floor.JPG">upper floor</a>(see the plan).<br> 
         The school was to become popular and achieved good attainments. After a being open a few year’s the school began to run out of space and soon various lack of space issues were being reported in the government annual inspection reports. 
         The School Board started discussions about building a new school rather than renting larger promises. Church members on the School Board were opposed to building a new school. Eventually building a new school was voted on and the search for a site, design and quotes began.<br>
         This school closed on 29/10/1886
+        </p>
+
+        <p>
+        Sources <br>
+        Chapel Green Board School Logbooks:<br>
+       <a href="Images/Logbooks/Infant_1877 -1905.pdf">Infant_1877 – 1905</a>  		(pages 1 to 75 cover this school) <br>
+		   <a href="Images/Logbooks/Junior_1877 - 1910.pdf">Junior_1877 - 1910</a> 		(pages 1 to 81 cover this school) <br>
+       </p>
+
+        <p>
+        Chapel Green Church School Logbook:  <br>	
+		    <a href="Images/Logbooks/Church_ School__ 1868 - 1903.pdf">Church_School _ 1868 - 1903</a> <br>
         </p>
       </div>
 
