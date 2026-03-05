@@ -15,7 +15,7 @@
     </div>
 
     <div class="picture">
-      <img src="Images/Images/Marshfield_School.jpg" alt="Marshfield School"/>
+      <img src="Marshfield_School.jpg" alt="Marshfield School"/>
     </div>
 
      <nav class="navbar">
@@ -74,3 +74,4 @@
   </div>
 </body>
 </html>
+
