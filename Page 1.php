@@ -1,42 +1,58 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Character encoding for the text to be rendered properly -->
   <meta charset="utf-8"/>
+  <!-- Design viewport settings for mobile compatibility -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Page title in browser -->
   <title>Marshfield School</title>
+  <!--External reference of stylesheet that is used for page styling-->
   <link rel="stylesheet" href="style.css" size>
 </head>
 
 <body>
+  <!-- Main grid container -->
   <div class="grid-container">
-
+  <!-- Header section with Page title -->
     <div class="header">
       <h1>Marshfield School History</h1>
     </div>
-
+    <!-- Image section showing an image of the school -->
     <div class="picture">
-      <img src="Marshfield_School.jpg" alt="Marshfield School"/>
+      <img src="Images/Images/Marshfield_School.jpg" alt="Marshfield School"/>
     </div>
 
+    <!-- Navigation bar section containing nav bar to other parent pages -->
      <nav class="navbar">
       <div class="navbuttons">
         <ul>
+          <!-- Navigation button that links to About page (Current page) -->
           <li><a href="Page 1.php">About</a></li>
+          <!-- Navigation button that links to Page 2 (Chapel Green Board School) -->
           <li><a href="Page 2.php">Chapel Green Board School</a></li>
+          <!-- Navigation button that links to Page 3 (Thorton Lane Board School) -->
           <li><a href="Page 3.php">Thorton Lane Board School</a></li>
+          <!-- Navigation button that links to Page 4 (Marshfield School) -->
           <li><a href="Page 4.php">Marshfield School</a></li>
-          <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
-          <li><a href="Sources db.xlsx">Sources database</a></li>
+          <!-- Navigation button that links to Staff database (Staff sql file) -->
+          <li class="align"><a href="Page 5.php">Staff database</a></li>
+          <!-- Navigation button that links to Sources database (Sources sql file) -->
+          <li><a href="Page 6.php">Sources database</a></li>
         </ul>
       </div>
     </nav>
 
+    <!-- Container for 2 columns of text -->
     <div class="content-grid">
+
+    <!-- Left column of the 2: project description -->
       <div class="subPage">
         <header>
           <h3>About</h3>
         </header>
 
+        <!-- Text highlighting the projects overview and purpose -->
         <p>
           This application is a Community Research project focusing on the history of Marshfield School (Little Horton District) which is part of Bradfords educational history. It is intended as a resource for anyone researching Bradfords educational history or just interested in the history of Marshfield School.<br>
           It should be noted that all the information available in this application was provided under a personal, research and educational copy write. Therefore, it is likely to be covered by some other form of other copy-right restrictions. See copy-write statement at the end of this text. If you ignore this warning 
@@ -50,11 +66,13 @@
         </p>
       </div>
 
+      <!-- Right Collumn of the 2: Noteable Dates -->
       <div class="noteableDates">
         <header>
           <h3>Noteable Dates</h3>
         </header>
 
+        <!-- Text describing the noteable dates in the project's history -->
         <p>
           1870: Education Act enables local councils to open, operate and fund elementary education through the public purse.<br>
           1870: The purpose of the Act was to provide Education where there were insufficient Church School provision. Often called “Filling the Gaps”.<br>
@@ -68,10 +86,10 @@
       </div>
     </div>
 
+    <!-- Container containing the footer and the author of the work -->
     <div class="footer">
        <p>Community History Research by Ray Greenhough</p>
     </div>
   </div>
 </body>
 </html>
-
