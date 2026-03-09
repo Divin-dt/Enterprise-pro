@@ -78,7 +78,7 @@
         <a href="Page_3a.php">Back to home</a>
    </div>
 
-    
+    <!-- php code to select main text -->
     <?php if($currentIndex == 1):?>
       <h3>Index A to B</h3>
     <?php elseif ($currentIndex == 2):?>
