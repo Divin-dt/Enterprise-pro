@@ -35,7 +35,9 @@
           <li><a href="Page 3.php">Thorton Lane Board School</a></li>
           <!-- Navigation button that links to Page 4 (Marshfield School) -->
           <li><a href="Page 4.php">Marshfield School</a></li>
+          <!-- Navigation button that links to Staff database (Staff sql file) -->
           <li class="align"><a href="Page 5.php">Staff database</a></li>
+          <!-- Navigation button that links to Sources database (Sources sql file) -->
           <li><a href="Page 6.php">Sources database</a></li>
         </ul>
       </div>
@@ -91,4 +93,3 @@
   </div>
 </body>
 </html>
-
