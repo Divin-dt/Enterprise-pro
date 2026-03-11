@@ -25,8 +25,8 @@
           <li><a href="Page 2.php">Chapel Green Board School</a></li>
           <li><a href="Page 3.php">Thorton Lane Board School</a></li>
           <li><a href="Page 4.php">Marshfield School</a></li>
-          <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
-          <li><a href="Sources db.xlsx">Sources database</a></li>
+          <li class="align"><a href="Page 5.php">Staff database</a></li>
+          <li><a href="Page 6.php">Sources database</a></li>
         </ul>
       </div>
     </nav>
@@ -47,30 +47,30 @@
        Sources<br>
        Marshfield School Logbooks<br>
 	   <a href="Page 4a.php">Infant_	1905 – 1939<br></a>
-	   <a href="Page 4b.php">Infant _ 1939 – 1969<br></a>
-	   <a href="Page 4c.php">Infant _ 1969 – 1973<br></a>
-	   <a href="Page 4d.php">Junior _ 1910 – 1933<br></a>
-	   <a href="Page 4e.php">Junior _1933 – 1964<br></a>
+	   <a href="Page4b.php">Infant _ 1939 – 1969<br></a>
+	   <a href="Page4c.php">Infant _ 1969 – 1973<br></a>
+	   <a href="Page4d.php">Junior _ 1910 – 1933<br></a>
+	   <a href="Page4e.php">Junior _1933 – 1964<br></a>
        </p>
    
        <p>
        Admission Registers<br>
-	   <a href="Page 4f.php">Infant_	Sep 1943 – Jan 1954<br></a>
-	   <a href="Page 4g.php">Infant_ Sep 1954 – Jul 1965<br></a>
-	   <a href="Page 4h.php">Infant_ Sep 1965 – Jan 1973<br></a>
-	   <a href="Page 4i.php">Junior	_Apr 1906 – Jul 1911<br></a>
-	   <a href="Page 4j.php">Junior	_Aug 1911 – Jul 1917<br></a>
-	   <a href="Page 4k.php">Junior_ Aug 1928 – Jan 1944<br></a>
-	   <a href="Page 4l.php">Junior _Mar 1944 – Feb 1954<br></a>
-	   <a href="Page 4m.php">Junior_Mar 1954 – Jan 1963<br></a>
-	   <a href="Page 4n.php">Junior_Oct 1963 – Sep 1971<br></a>
-	   <a href="Page 4o.php">Junior_Sept 1971 – Sep 1973<br></a>
-	   <a href="Page 4p.php">Seniors_1908 – 1928<br></a>
+	   <a href="Page4f.php">Infant_	Sep 1943 – Jan 1954<br></a>
+	   <a href="Page4g.php">Infant_ Sep 1954 – Jul 1965<br></a>
+	   <a href="Page4h.php">Infant_ Sep 1965 – Jan 1973<br></a>
+	   <a href="Page4i.php">Junior	_Apr 1906 – Jul 1911<br></a>
+	   <a href="Page4j.php">Junior	_Aug 1911 – Jul 1917<br></a>
+	   <a href="Page4k.php">Junior_ Aug 1928 – Jan 1944<br></a>
+	   <a href="Page4l.php">Junior _Mar 1944 – Feb 1954<br></a>
+	   <a href="Page4m.php">Junior_Mar 1954 – Jan 1963<br></a>
+	   <a href="Page4n.php">Junior_Oct 1963 – Sep 1971<br></a>
+	   <a href="Page4o.php">Junior_Sept 1971 – Sep 1973<br></a>
+	   <a href="Page4p.php">Seniors_1908 – 1928<br></a>
        </p>
 
        <p>
        Punishment Book<br>
-	   <a href="Page 4q.php">Punishment_1902 - 1965<br></a>
+	   <a href="Page4q.php">Punishment_1902 - 1965<br></a>
        </p>
 
        <p>
@@ -110,3 +110,5 @@
   </div>
 </body>
 </html>
+
+

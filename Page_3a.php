@@ -12,8 +12,8 @@
           <li><a href="Page 2.php">Chapel Green Board School</a></li>
           <li><a href="Page 3.php">Thorton Lane Board School</a></li>
           <li><a href="Page 4.php">Marshfield School</a></li>
-          <li class="align"><a href="Staff db.xlsx">Staff database</a></li>
-          <li><a href="Sources db.xlsx">Sources database</a></li>
+          <li class="align"><a href="Page 5.php">Staff database</a></li>
+          <li><a href="Page 6.php">Sources database</a></li>
         </ul>
       </div>
     </nav>
@@ -39,4 +39,6 @@
      }
      ?>
      </div>
+
+
 
