@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <!-- ============================================================
-     FILE: page4b.html
-     PURPOSE: Logbook (Infants) 1939 - 1966 - page index table linking to document images
-     PARENT PAGE: page4.html
+     FILE: Page4c.php
+     PURPOSE: Logbook (Infants) 1966 - 1973 - page index table linking to document images
+     PARENT PAGE: Page 4.php
      ============================================================ -->
 <html lang="en">
 <head>
-    <!-- Character encoding for the text to be rendered properly -->
+     <!-- Character encoding for the text to be rendered properly -->
      <meta charset="utf-8"/>
      <!-- Design viewport settings for mobile compatibility -->
      <meta name="viewport" content="width=device-width, initial-scale=1" />
      <!-- Page title in browser -->
-     <title>Marshfield School History - Logbook Infants 1939-1966</title>
+     <title>Marshfield School History - Logbook Infants 1966-1973</title>
      <!--External reference of stylesheet that is used for page styling-->
      <link rel="stylesheet" href="Page-css.css">
 </head>
@@ -27,7 +27,6 @@
             [ Marshfield School photograph: Images/Images/Marshfield_School.jpg ]
         </div>
     </div>
-
     <!-- Navigation bar section containing nav bar to other parent pages -->
     <nav id="nav-bar">
         <!-- Navigation button that links to About page -->
@@ -44,25 +43,29 @@
         <a href="Page 6.php">Sources Database</a>
     </nav>
 
+    
     <main id="main-content">
         <div class="content-full">
             <div class="table-section">
-                <h2>Logbook (Infants) 1939 - 1966</h2>
+                <h2>Logbook (Infants) 1966 - 1973</h2>
                 <div class="info-box">
                     Click any page to view it. Images are in:
-                    <code>Images/Log_Books/Infants_1939-1966/</code>
+                    <code>Images/Log_Books/Infants_1966-1973/</code>
                     — Add hyperlinks using the Instruction Manual. 
                 </div>
-                
+
                 <!-- Grid with page number text which can have links to book pages -->
                 <table class="page-table">
                     <tbody>
-                        <tr><td><a href="#">Front page</a></td><td><a href="#">Inspection</a></td><td><a href="#">Page 1/2</a></td><td><a href="#">Page 3/4</a></td><td><a href="#">Page 5/6</a></td><td><a href="#">Page 7/8</a></td><td><a href="#">Page 9/10</a></td><td><a href="#">Page 11/12</a></td><td><a href="#">Page 13/14</a></td><td><a href="#">Page 15/16</a></td></tr>
-                        <tr><td><a href="#">Page 17/18</a></td><td><a href="#">Page 19/20</a></td><td><a href="#">Page 21/22</a></td><td><a href="#">Page 23/24</a></td><td><a href="#">Page 25/26</a></td><td><a href="#">Page 27/28</a></td><td><a href="#">Page 29/30</a></td><td><a href="#">Page 31/32</a></td><td><a href="#">Page 33/34</a></td><td><a href="#">Page 35/36</a></td></tr>
-                        <tr><td><a href="#">Page 37/38</a></td><td><a href="#">Page 39/40</a></td><td><a href="#">Page 41/42</a></td><td><a href="#">Page 43/44</a></td><td><a href="#">Page 45/46</a></td><td><a href="#">Page 47/48</a></td><td><a href="#">Page 49/50</a></td><td><a href="#">Page 51/52</a></td><td><a href="#">Page 53/54</a></td><td><a href="#">Page 55/56</a></td></tr>
-                        <tr><td><a href="#">Page 57/58</a></td><td><a href="#">Page 59/60</a></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                        <tr><td><a href="#">Index A</a></td><td><a href="#">Index B C</a></td><td><a href="#">Index D E F</a></td><td><a href="#">Index G H</a></td><td><a href="#">Index I J</a></td><td><a href="#">Index K L</a></td><td><a href="#">Index M</a></td><td><a href="#">Index N O</a></td><td><a href="#">Index P Q</a></td><td><a href="#">Index R S</a></td></tr>
+                        <tr><td><a href="#">Page 1</a></td><td><a href="#">Page 2</a></td><td><a href="#">Page 3</a></td><td><a href="#">Page 4</a></td><td><a href="#">Page 5</a></td><td><a href="#">Page 6</a></td><td><a href="#">Page 7</a></td><td><a href="#">Page 8</a></td><td><a href="#">Page 9</a></td><td><a href="#">Page 10</a></td></tr>
+                        <tr><td><a href="#">Page 11</a></td><td><a href="#">Page 12</a></td><td><a href="#">Page 13</a></td><td><a href="#">Page 14</a></td><td><a href="#">Page 15</a></td><td><a href="#">Page 16</a></td><td><a href="#">Page 17</a></td><td><a href="#">Page 18</a></td><td><a href="#">Page 19</a></td><td><a href="#">Page 20</a></td></tr>
+                        <tr><td><a href="#">Page 21</a></td><td><a href="#">Page 22</a></td><td><a href="#">Page 23</a></td><td><a href="#">Page 24</a></td><td><a href="#">Page 25</a></td><td><a href="#">Page 26</a></td><td><a href="#">Page 27</a></td><td><a href="#">Page 28</a></td><td><a href="#">Page 29</a></td><td><a href="#">Page 30</a></td></tr>
+                        <tr><td><a href="#">Page 31</a></td><td><a href="#">Page 32</a></td><td><a href="#">Page 33</a></td><td><a href="#">Page 34</a></td><td><a href="#">Page 35</a></td><td><a href="#">Page 36</a></td><td><a href="#">Page 37</a></td><td><a href="#">Page 38</a></td><td><a href="#">Page 39</a></td><td><a href="#">Page 40</a></td></tr>
                     </tbody>
                 </table>
+
+
                 <div class="page-nav" style="margin-top:12px;">
                     <!-- Navigation: links back to parent Marshfield page and Home -->
                     <a href="Page 4.php">&#8592; Back to Marshfield School</a>
@@ -71,9 +74,13 @@
             </div>
         </div>
     </main>
+
+    <!-- Container containing the footer and the author of the work -->
     <footer id="page-footer">
         Community History Research by Ray Greenhough
     </footer>
 </body>
 </html>
+
+
 

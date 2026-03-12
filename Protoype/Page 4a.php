@@ -1,58 +1,85 @@
-<html>
-  <head>
-  <!-- Character encoding for the text to be rendered properly -->
-  <meta charset="utf-8"/>
-  <!-- Design viewport settings for mobile compatibility -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- Page title in browser -->
-  <title>Marshfield School</title>
-  <!--External reference of stylesheet that is used for page styling-->
-  <link rel="stylesheet" href="Page-css.css"/>
-</head>
 
+<!DOCTYPE html>
+<!-- ============================================================
+     FILE: Page 4a.php
+     PURPOSE: Logbook (Infants) 1905 - 1939 - page index table linking to document images
+     PARENT PAGE: Page 4.php
+     ============================================================ -->
+<html lang="en">
+<head>
+     <!-- Character encoding for the text to be rendered properly -->
+     <meta charset="utf-8"/>
+     <!-- Design viewport settings for mobile compatibility -->
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <!-- Page title in browser -->
+     <title>Marshfield School History - Logbook Infants 1905-1939</title>
+     <!--External reference of stylesheet that is used for page styling-->
+     <link rel="stylesheet" href="Page-css.css">
+</head>
 <body>
-     <!-- Navigation bar section containing nav bar to other parent pages -->
-      <nav class="navbar">
-      <div class="navbuttons">
-        <ul>
-          <!-- Navigation button that links to About page (Current page) -->
-          <li><a href="Page 1.php">About</a></li>
-          <!-- Navigation button that links to Page 2 (Chapel Green Board School) -->
-          <li><a href="Page 2.php">Chapel Green Board School</a></li>
-          <!-- Navigation button that links to Page 3 (Thorton Lane Board School) -->
-          <li><a href="Page 3.php">Thorton Lane Board School</a></li>
-          <!-- Navigation button that links to Page 4 (Marshfield School) -->
-          <li><a href="Page 4.php">Marshfield School</a></li>
-          <!-- Navigation button that links to Staff database (Staff sql file) -->
-          <li class="align"><a href="Page 5.php">Staff database</a></li>
-          <!-- Navigation button that links to Sources database (Sources sql file) -->
-          <li><a href="Page 6.php">Sources database</a></li>
-        </ul>
-      </div>
+    <!-- Main Page title -->
+    <header id="page-header">
+        <h1>Marshfield School History</h1>
+        <p class="header-subtitle">Bradford Community History Research</p>
+    </header>
+    <!-- Image section showing an image of the school -->
+    <div id="header-image">
+        <div class="img-placeholder">
+            <img scr = "Marshfield_School.jpg">
+        </div>
+    </div>
+
+    <!-- Navigation bar section containing nav bar to other parent pages -->
+    <nav id="nav-bar">
+        <!-- Navigation button that links to About page -->
+        <a href="Page 1.php">About</a>
+        <!-- Navigation button that links to Page 2 (Chapel Green Board School) -->
+        <a href="Page 2.php">Chapel Green Board School</a>
+        <!-- Navigation button that links to Page 3 (Thorton Lane Board School) -->
+        <a href="Page 3.php">Thornton Lane Board School</a>
+        <!-- Navigation button that links to Page 4 (Marshfield School) -->
+        <a href="Page 4.php" class="active">Marshfield School</a>
+        <!-- Navigation button that links to Page 5 (Staff sql file) -->
+        <a href="Page 5.php">Staff Database</a>
+        <!-- Navigation button that links to Page 6 (Sources sql file) -->
+        <a href="Page 6.php">Sources Database</a>
     </nav>
 
-    <!-- Container with Main Page title -->
-    <div>
-     <h3>Logbook (Infants) 1905 - 1939</h3>
-</div>
+    <main id="main-content">
+        <div class="content-full">
+            <div class="table-section">
+                <h2>Logbook (Infants) 1905 - 1939</h2>
+                <div class="info-box">
+                    Click any page to view it. Images are in:
+                    <code>Images/Log_Books/Infants_1905-1939/</code>
+                    — Add hyperlinks using the Instruction Manual. 
+                </div>
 
-<!-- Grid with page number text which can have links to book pages -->
-<div class="grid">
-    <a>Page 1</a>     
-    <a>Page 2</a>
-    <a>Page 3</a>
-    <a>Page 4</a>
-    <a>Page 5</a>
-    <a>Page 6</a>
-    <a>etc.</a>
-    <!-- php code that makes new empty grid boxes -->
-    <?php
-       for ($i = 1; $i <= 43; $i++) {
-      echo "<a>  </a>";
-  }
-?>
+                <!-- Grid with page number text which can have links to book pages -->
+                <table class="page-table">
+                    <tbody>
+                        <tr><td><a href="#">Page 1</a></td><td><a href="#">Page 2</a></td><td><a href="#">Page 3</a></td><td><a href="#">Page 4</a></td><td><a href="#">Page 5</a></td><td><a href="#">Page 6</a></td><td><a href="#">Page 7</a></td><td><a href="#">Page 8</a></td><td><a href="#">Page 9</a></td><td><a href="#">Page 10</a></td></tr>
+                        <tr><td><a href="#">Page 11</a></td><td><a href="#">Page 12</a></td><td><a href="#">Page 13</a></td><td><a href="#">Page 14</a></td><td><a href="#">Page 15</a></td><td><a href="#">Page 16</a></td><td><a href="#">Page 17</a></td><td><a href="#">Page 18</a></td><td><a href="#">Page 19</a></td><td><a href="#">Page 20</a></td></tr>
+                        <tr><td><a href="#">Page 21</a></td><td><a href="#">Page 22</a></td><td><a href="#">Page 23</a></td><td><a href="#">Page 24</a></td><td><a href="#">Page 25</a></td><td><a href="#">Page 26</a></td><td><a href="#">Page 27</a></td><td><a href="#">Page 28</a></td><td><a href="#">Page 29</a></td><td><a href="#">Page 30</a></td></tr>
+                        <tr><td><a href="#">Page 31</a></td><td><a href="#">Page 32</a></td><td><a href="#">Page 33</a></td><td><a href="#">Page 34</a></td><td><a href="#">Page 35</a></td><td><a href="#">Page 36</a></td><td><a href="#">Page 37</a></td><td><a href="#">Page 38</a></td><td><a href="#">Page 39</a></td><td><a href="#">Page 40</a></td></tr>
+                        <tr><td><a href="#">Page 41</a></td><td><a href="#">Page 42</a></td><td><a href="#">Page 43</a></td><td><a href="#">Page 44</a></td><td><a href="#">Page 45</a></td><td><a href="#">Page 46</a></td><td><a href="#">Page 47</a></td><td><a href="#">Page 48</a></td><td><a href="#">Page 49</a></td><td><a href="#">Page 50</a></td></tr>
+                    </tbody>
+                </table>
+                <div class="page-nav" style="margin-top:12px;">
+                    <!-- Navigation: links back to parent Marshfield page and Home -->
+                    <a href="Page 4.php">&#8592; Back to Marshfield School</a>
+                    <a href="Page 1.php">&#8962; Home</a>
+                </div>
+            </div>
+        </div>
+    </main>
 
-</div>
-
+    <!-- Container containing the footer and the author of the work -->
+    <footer id="page-footer">
+        Community History Research by Ray Greenhough
+    </footer>
 </body>
 </html>
+
+
+
