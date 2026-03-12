@@ -1,19 +1,18 @@
 <?php
 // ============================================================
-// FILE: includes/footer.php
-// PURPOSE: Shared page footer - included at the bottom of every page with:
-//          <?php include 'includes/footer.php'; ?>
+// FILE: footer.php
+// PURPOSE: Shared page footer - included at the BOTTOM of every page with:
+//          <?php include 'footer.php'; ?>
 // ============================================================
 ?>
-    </main><!-- LINE 1: Close main content area (opened in header.php) -->
+    </main><!-- LINE 1: Close the <main> content area that was opened in header.php -->
 
     <!-- ============================================================
-         FOOTER SECTION - bottom banner on every page
+         LINE 2: FOOTER SECTION
+         INSTRUCTION: To change the footer text, edit the text inside <footer> below
          ============================================================ -->
-
-    <!-- LINE 2: Page footer -->
     <footer id="page-footer">
-        <!-- LINE 3: Footer text - change the name here if needed -->
+        <!-- LINE 3: Footer credit text -->
         Community History Research by Ray Greenhough
     </footer>
 

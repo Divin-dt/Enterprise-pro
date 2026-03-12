@@ -1,62 +1,60 @@
-<!DOCTYPE html>
-<!-- ============================================================
-     FILE: Page4q.php
-     PURPOSE: Punishment Book 1903 - 1965 - page index table linking to document images
-     PARENT PAGE: Page 4.php
-     ============================================================ -->
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marshfield School History - Punishment Book 1903-1965</title>
-    <link rel="stylesheet" href="Page-css.css">
-</head>
-<body>
-    <header id="page-header">
-        <h1>Marshfield School History</h1>
-        <p class="header-subtitle">Bradford Community History Research</p>
-    </header>
-    <div id="header-image">
-        <div class="img-placeholder">
-            [ Marshfield School photograph: Images/Images/Marshfield_School.jpg ]
-        </div>
-    </div>
-    <nav id="nav-bar">
-        <a href="Page 1.php">About</a>
-        <a href="Page 2.php">Chapel Green Board School</a>
-        <a href="Page 3.php">Thornton Lane Board School</a>
-        <a href="Page 4.php" class="active">Marshfield School</a>
-        <a href="Page 5.php">Staff Database</a>
-        <a href="Page 6.php">Sources Database</a>
-    </nav>
-    <main id="main-content">
-        <div class="content-full">
-            <div class="table-section">
-                <h2>Punishment Book 1903 - 1965</h2>
-                <div class="info-box">
-                    Click any page to view it. Images are in:
-                    <code>Images/Punishment_Books/</code>
-                    — Add hyperlinks using the Instruction Manual. 
-                </div>
-                <table class="page-table">
-                    <tbody>
+<?php
+// ============================================================
+// FILE: Page4q.php
+// PURPOSE: Punishment Book — 1902 to 1965 - page index table linking to document images.
+// PARENT PAGE: Page_4.php
+// ============================================================
+
+// LINE 1: Set browser tab title
+$page_title = 'Marshfield School History - Punishment Book — 1902 to 1965';
+
+// LINE 2: Highlight the Marshfield School nav button (button 4)
+$active_nav = 4;
+
+// LINE 3: Include shared header
+include 'header.php';
+?>
+
+    <!-- PAGE Page4q - MAIN CONTENT -->
+
+    <!-- LINE 4: Centred content wrapper -->
+    <div class="content-full">
+
+        <div class="table-section">
+
+            <!-- LINE 5: Section heading
+                 INSTRUCTION: To change the heading, edit the text inside <h2> below -->
+            <h2>Punishment Book — 1902 to 1965</h2>
+
+            <!-- LINE 6: Info box -->
+            <div class="info-box">
+                Click any page number to view it. Images are in:
+                <code>Images/Punishment_Books/1902-1965/</code><br>
+                — Add hyperlinks using the Instruction Manual.
+            </div>
+
+            <!-- LINE 7: Page index table
+                 INSTRUCTION: Replace each # with the correct viewer link.
+                 Format: viewer.php?file=Images/Punishment_Books/1902-1965/Page_01.jpg&back=Page4q.php
+                 Add more <tr> rows of 10 cells as needed. -->
+            <table class="page-table">
+                <tbody>
                         <tr><td><a href="#">Outside cover</a></td><td><a href="#">Inside cover</a></td><td><a href="#">Page 1</a></td><td><a href="#">Page 2</a></td><td><a href="#">Page 3</a></td><td><a href="#">Page 4</a></td><td><a href="#">Page 5</a></td><td><a href="#">Page 6</a></td><td><a href="#">Page 7</a></td><td><a href="#">Page 8</a></td></tr>
                         <tr><td><a href="#">Page 9</a></td><td><a href="#">Page 10</a></td><td><a href="#">Page 11</a></td><td><a href="#">Page 12</a></td><td><a href="#">Page 13</a></td><td><a href="#">Page 14</a></td><td><a href="#">Page 15</a></td><td><a href="#">Page 16</a></td><td></td><td></td></tr>
                     </tbody>
-                </table>
-                <div class="page-nav" style="margin-top:12px;">
-                    <!-- Navigation: links back to parent Marshfield page and Home -->
-                    <a href="Page 4.php">&#8592; Back to Marshfield School</a>
-                    <a href="Page 1.php">&#8962; Home</a>
-                </div>
+            </table>
+
+            <!-- LINE 8: Back navigation buttons -->
+            <div class="page-nav">
+                <a href="Page_4.php">&#8592; Back to Marshfield School</a>
+                <a href="Page_1.php">&#8962; Home</a>
             </div>
+
         </div>
-    </main>
-    <footer id="page-footer">
-        Community History Research by Ray Greenhough
-    </footer>
-</body>
-</html>
 
+    </div><!-- LINE 9: End of content-full -->
 
-
+<?php
+// LINE 10: Include shared footer
+include 'footer.php';
+?>

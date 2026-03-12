@@ -1,0 +1,145 @@
+=====================================================================
+  MARSHFIELD SCHOOL HISTORY - PHP VERSION
+  SETUP GUIDE FOR RAY GREENHOUGH
+=====================================================================
+
+WHAT YOU NEED TO RUN THIS VERSION
+====================================
+Unlike the pure HTML version (which opens directly in a browser),
+the PHP version requires a local web server. The easiest way is
+XAMPP, which is free and installs everything automatically.
+
+STEP 1 - INSTALL XAMPP
+--------------------------
+1. Go to: https://www.apachefriends.org
+2. Download XAMPP for Windows (the version for your Windows)
+3. Run the installer. Accept all defaults.
+4. XAMPP installs to C:\xampp by default.
+
+STEP 2 - START XAMPP
+--------------------------
+1. Open the XAMPP Control Panel (there will be a shortcut on your desktop).
+2. Click "Start" next to Apache.
+3. Click "Start" next to MySQL.
+4. Both should show green "Running" status.
+
+STEP 3 - COPY YOUR PROJECT FILES
+--------------------------
+1. Find your project folder (the one containing index.php, page2.php, etc.)
+2. Copy the ENTIRE project folder into:
+   C:\xampp\htdocs\
+   So you should have: C:\xampp\htdocs\marshfield_php\  (or whatever you named it)
+
+STEP 4 - SET UP THE DATABASE
+--------------------------
+1. Open your browser and go to: http://localhost/phpmyadmin
+2. In phpMyAdmin, click the "SQL" tab at the top.
+3. Open the file "staff.sql" from your project folder in Notepad.
+   Copy ALL the text and paste it into the phpMyAdmin SQL box.
+   Click "Go". You should see "2 queries executed successfully".
+4. Then do the same with "sources.sql" - paste it in the SQL box and click Go.
+5. The database is now set up with sample records.
+
+STEP 5 - OPEN THE APPLICATION
+--------------------------
+1. Open your browser.
+2. Go to: http://localhost/marshfield_php/
+   (Replace "marshfield_php" with your actual folder name)
+3. The About page should appear.
+
+STEP 6 - TEST THE DATABASES
+--------------------------
+1. Click "Staff Database" in the navigation bar.
+2. Click "Clear / Show All" to see the sample staff records.
+3. Click "Sources Database" to see sample source records.
+4. Both should show 5-7 sample records.
+
+
+TROUBLESHOOTING
+================
+
+"Database Connection Error" message
+  - Make sure MySQL is running in XAMPP Control Panel.
+  - Open config.php in Notepad and check the credentials:
+    DB_USER is 'root' and DB_PASS is '' (blank) by default in XAMPP.
+
+Page not found / 404 error
+  - Make sure Apache is running in XAMPP Control Panel.
+  - Check your folder is directly inside C:\xampp\htdocs\
+  - Check the URL is: http://localhost/YOUR_FOLDER_NAME/
+
+Images not showing
+  - Place your image files inside the Images subfolder of your project.
+  - The folder must be: C:\xampp\htdocs\marshfield_php\Images\
+  - Image filenames must match exactly (including capital letters).
+
+PHP errors showing on page
+  - This usually means a PHP syntax error in one of the .php files.
+  - Check the error message - it usually says which file and line number.
+
+DATABASE BACKUP
+================
+Your database is stored in MySQL, not in a file.
+To back it up:
+1. Open http://localhost/phpmyadmin
+2. Click on "marshfield_history" database in the left panel.
+3. Click "Export" tab.
+4. Click "Go".
+5. Save the downloaded .sql file somewhere safe.
+
+To restore a backup:
+1. Open http://localhost/phpmyadmin
+2. Click "SQL" tab.
+3. Paste the backup file contents and click Go.
+
+
+FILE STRUCTURE
+===============
+marshfield_php/
+  index.php           - Page 1 (About / Home)
+  page1a.php          - Page 1a (Booklets)
+  page2.php           - Page 2 (Chapel Green Board School)
+  page3.php           - Page 3 (Thornton Lane Board School)
+  page3a.php          - Page 3a (Thornton Lane Admission Registers)
+  page4.php           - Page 4 (Marshfield School)
+  page4a.php          - Logbook Infants 1905-1939
+  page4b.php - 4s.php - All other Marshfield document pages
+  page5.php           - Staff Database
+  page6.php           - Sources Database
+  viewer.php          - Generic document viewer (images and PDFs)
+  ahs-viewer.php      - A Historical Sketch booklet viewer (with prev/next)
+  tla-viewer.php      - Thornton Lane Register viewer (with prev/next)
+  config.php          - Database connection settings (change credentials here)
+  staff.sql           - SQL to create the staff table
+  sources.sql         - SQL to create the sources table
+  includes/
+    header.php        - Shared page header (title, nav bar)
+    footer.php        - Shared page footer
+  css/
+    style.css         - All styling - colours, fonts, layout
+  Images/
+    Admission_Registers/  - Place admission register images here
+    Booklets/             - Place booklet page images here
+    Bradford_School_Board/- Place school board documents here
+    Documents/            - General documents
+    Images/               - School photographs
+    Log_Books/            - Logbook PDFs and images
+    Maps_and_Plans/       - Floor plans and maps
+    Newspapers/           - Newspaper clippings
+    Punishment_Books/     - Punishment book images
+
+
+ADAPTING FOR ANOTHER PROJECT
+================================
+1. Copy the entire marshfield_php folder.
+2. Rename it for your new project.
+3. Edit config.php if using a different database name.
+4. Change DB_NAME to a new database name.
+5. Run staff.sql and sources.sql to set up the new database
+   (edit the CREATE DATABASE line to use your new name first).
+6. Edit includes/header.php to change the title and nav button labels.
+7. Edit the content in each .php page for your new project.
+
+=====================================================================
+  Community History Research by Ray Greenhough
+=====================================================================
