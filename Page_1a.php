@@ -70,27 +70,27 @@ include 'header.php';
                          INSTRUCTION: Replace # with ahs-viewer.php?page=N for each page -->
                     <tr>
                         <td><a href="ahs-viewer.php?page=10">Page 10</a></td>
-                        <td><a href="#">Page 11</a></td><!-- INSTRUCTION: Replace # with ahs-viewer.php?page=11 -->
-                        <td><a href="#">Page 12</a></td><!-- INSTRUCTION: Replace # with ahs-viewer.php?page=12 -->
-                        <td><a href="#">Page 13</a></td>
-                        <td><a href="#">Page 14</a></td>
-                        <td><a href="#">Page 15</a></td>
-                        <td><a href="#">Page 16</a></td>
-                        <td><a href="#">Page 17</a></td>
-                        <td><a href="#">Page 18</a></td>
-                        <td><a href="#">Page 19</a></td>
+                        <td><a href="ahs-viewer.php?page=11">Page 11</a></td>
+                        <td><a href="ahs-viewer.php?page=12">Page 12</a></td>
+                        <td><a href="ahs-viewer.php?page=13">Page 13</a></td>
+                        <td><a href="ahs-viewer.php?page=14">Page 14</a></td>
+                        <td><a href="ahs-viewer.php?page=15">Page 15</a></td>
+                        <td><a href="ahs-viewer.php?page=16">Page 16</a></td>
+                        <td><a href="ahs-viewer.php?page=17">Page 17</a></td>
+                        <td><a href="ahs-viewer.php?page=18">Page 18</a></td>
+                        <td><a href="ahs-viewer.php?page=19">Page 19</a></td>
                     </tr>
                     <!-- LINE 12: ROW 3 — Pages 20–28 -->
                     <tr>
-                        <td><a href="#">Page 20</a></td>
-                        <td><a href="#">Page 21</a></td>
-                        <td><a href="#">Page 22</a></td>
-                        <td><a href="#">Page 23</a></td>
-                        <td><a href="#">Page 24</a></td>
-                        <td><a href="#">Page 25</a></td>
-                        <td><a href="#">Page 26</a></td>
-                        <td><a href="#">Page 27</a></td>
-                        <td><a href="#">Page 28</a></td>
+                        <td><a href="ahs-viewer.php?page=20">Page 20</a></td>
+                        <td><a href="ahs-viewer.php?page=21">Page 21</a></td>
+                        <td><a href="ahs-viewer.php?page=22">Page 22</a></td>
+                        <td><a href="ahs-viewer.php?page=23">Page 23</a></td>
+                        <td><a href="ahs-viewer.php?page=24">Page 24</a></td>
+                        <td><a href="ahs-viewer.php?page=25">Page 25</a></td>
+                        <td><a href="ahs-viewer.php?page=26">Page 26</a></td>
+                        <td><a href="ahs-viewer.php?page=27">Page 27</a></td>
+                        <td><a href="ahs-viewer.php?page=28">Page 28</a></td>
                         <td></td><!-- Empty cell to complete the row -->
                     </tr>
                 </tbody>

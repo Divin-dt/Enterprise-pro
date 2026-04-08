@@ -123,8 +123,7 @@ $get_base = array_filter(['s_school' => $s_school, 's_type' => $s_type, 's_name'
 
             <!-- LINE 21: Info box -->
             <div class="info-box" style="margin-bottom:1.25rem;">
-                All available source documents for the project. Each record can include a link to open
-                the document from the Images folder. Use the search fields to filter. Leave blank to show all.
+                All available source documents for the.
             </div>
 
             <!-- ============================================================

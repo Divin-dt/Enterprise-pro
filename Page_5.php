@@ -144,8 +144,7 @@ $get_base = array_filter([
 
             <!-- LINE 22: Info box explaining the page -->
             <div class="info-box" style="margin-bottom:1.25rem;">
-                Staff records from the school logbooks. Use the search fields below to filter records.
-                Leave all fields blank to show all records.
+                Staff records from the school logbooks.
             </div>
 
             <!-- ============================================================
